@@ -1,5 +1,5 @@
 import React from 'react'
-import './.'
+import './FollowersCard.css'
 import { Followers } from '../Data/FollowersData'
 
 
@@ -12,12 +12,14 @@ function FollowersCard() {
           Followers.map((follower, id)=>{
             return(
               <div className="follower">
-                <img src={follower.img} className="followerImg"/>
+                <img src={follower.img} className="followerImage"/>
                 <div className="name">
                   <span>{follower.name}</span>
                   <span>@{follower.username}</span>
                 </div>
-                  <button>Follow</button>
+                  <button className='button fc-button'>
+                    Follow
+                  </button>
               </div>
             )
           })
