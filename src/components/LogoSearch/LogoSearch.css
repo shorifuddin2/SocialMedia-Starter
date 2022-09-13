@@ -3,7 +3,7 @@
     gap: 0.75rem;
 }
 
-.Search{   
+.Search{
     display: flex;
     background-color: var(--inputColor);
     border-radius: 10px;
@@ -27,5 +27,5 @@
 }
 
 .s-icon:hover{
-    cursor:pointer;
+    cursor: pointer;
 }
